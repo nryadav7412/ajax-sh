@@ -1,15 +1,15 @@
 class script(object):
     START_TXT = """<b>Hello {},
-My Name Is <a href=https://t.me/{}>{}</a>,I Can Provide You Movies & Series ,Just Join My Group And Enjoy 🥰"""
-    HELP_TXT = """Hey {}
-Here Is The Help Of My All Commands."""
+My Name Is <a href=https://t.me/{}>{}</a>,I Can Provide You Movies & Series ,Just Join My Group And Enjoy 🥰</b>"""
+    HELP_TXT = """<b>Hey {}
+Here Is The Help Of My All Commands.</b>"""
     ABOUT_TXT = """✮ My Name: {}
 ✮ Creator: <a href=https://t.me/Legends_Nvr_Die>डॉक्टर स्ट्रैन्ज</a>
-✮ Library: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✮ Language: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✮ Database: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✮ Bot Sever: 𝙷𝙴𝚁𝙾𝙺𝚄
-✮ Build Status v1.0.2 [ 𝙱𝙴𝚃𝙰 ]"""
+✮ Library: Pyrogram
+✮ Language: Python 3
+✮ Database: Mongo DB
+✮ Bot Sever: Heroku
+✮ Build Status v1.0.2 [ Beta ]"""
     SOURCE_TXT = """<b>Donation</b>
 
 ⪼ <b>You Can Donate Any Amount You Have 💳. 
