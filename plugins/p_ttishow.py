@@ -38,15 +38,13 @@ async def save_group(bot, message):
             return
         buttons = [
             [
-                InlineKeyboardButton('☘️Mʏ Cʜᴀɴɴᴇʟ☘️', url='https://t.me/Latest_Movies_And_Series')
-            ],
-            [
+                InlineKeyboardButton('☘️Mʏ Cʜᴀɴɴᴇʟ☘️', url='https://t.me/Latest_Movies_And_Series'),
                 InlineKeyboardButton('ℹ️Hᴇʟᴘℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
             ]
             ]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
-            text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf You Have Any Questions & Doubts About Using Me Contact Owner ›› @BKC0001.</b>",
+            text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf You Have Any Questions & Doubts About Using Me Contact Owner ›› @Legends_Nvr_Die.</b>",
             reply_markup=reply_markup)
     else:
         for u in message.new_chat_members:
