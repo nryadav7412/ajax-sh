@@ -398,8 +398,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('🎭 Mʏ Gʀᴏᴜᴘ 🎭', url=f'https://t.me/+AcKUM_gn5NE0MmQx'),
-            InlineKeyboardButton('☘️Mʏ Cʜᴀɴɴᴇʟ☘️', url=f'http://t.me/Latest_Movies_And_Series')
+            InlineKeyboardButton('🎭 Mʏ Gʀᴏᴜᴘ 🎭', url=f'https://t.me/+nZYSOz_a9PAzN2Yx'),
+            InlineKeyboardButton('☘️Mʏ Cʜᴀɴɴᴇʟ☘️', url=f'https://t.me/+BVd1zaUtDPozZGZl')
             ],[      
             InlineKeyboardButton('ℹ️Hᴇʟᴘℹ️', callback_data='help'),
             InlineKeyboardButton('👁‍🗨Aʙᴏᴜᴛ👁‍🗨', callback_data='about')
