@@ -18,7 +18,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('☘️Mʏ Cʜᴀɴɴᴇʟ☘️', url='https://t.me/Latest_Movies_And_Series')
+                InlineKeyboardButton('☘️Mʏ Cʜᴀɴɴᴇʟ☘️', url='https://t.me/+BVd1zaUtDPozZGZl')
             ],
             [
                 InlineKeyboardButton('ℹ️Hᴇʟᴘℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
@@ -37,8 +37,8 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = buttons = [[
-            InlineKeyboardButton('🎭 Mʏ Gʀᴏᴜᴘ 🎭', url=f'https://t.me/+AcKUM_gn5NE0MmQx'),
-            InlineKeyboardButton('☘️Mʏ Cʜᴀɴɴᴇʟ☘️', url=f'http://t.me/Latest_Movies_And_Series')
+            InlineKeyboardButton('🎭 Mʏ Gʀᴏᴜᴘ 🎭', url=f'https://t.me/+nZYSOz_a9PAzN2Yx'),
+            InlineKeyboardButton('☘️Mʏ Cʜᴀɴɴᴇʟ☘️', url=f'https://t.me/+BVd1zaUtDPozZGZl')
             ],[      
             InlineKeyboardButton('ℹ️Hᴇʟᴘℹ️', callback_data='help'),
             InlineKeyboardButton('👁‍🗨Aʙᴏᴜᴛ👁‍🗨', callback_data='about')
@@ -76,8 +76,8 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = buttons = [[
-            InlineKeyboardButton('🎭 Mʏ Gʀᴏᴜᴘ 🎭', url=f'https://t.me/+AcKUM_gn5NE0MmQx'),
-            InlineKeyboardButton('☘️Mʏ Cʜᴀɴɴᴇʟ☘️', url=f'http://t.me/Latest_Movies_And_Series')
+            InlineKeyboardButton('🎭 Mʏ Gʀᴏᴜᴘ 🎭', url=f'https://t.me/+nZYSOz_a9PAzN2Yx'),
+            InlineKeyboardButton('☘️Mʏ Cʜᴀɴɴᴇʟ☘️', url=f'https://t.me/+BVd1zaUtDPozZGZl')
             ],[      
             InlineKeyboardButton('ℹ️Hᴇʟᴘℹ️', callback_data='help'),
             InlineKeyboardButton('👁‍🗨Aʙᴏᴜᴛ👁‍🗨', callback_data='about')
